@@ -103,8 +103,8 @@
                                                             <ul class="nav navbar-nav navbar-right">
                                                                   <li class="active"><a href="#classifier">Classifier</a></li>
                                                             
-																   <li><a href="#servic">Approach</a></li>
-                                                                  <li><a href="#work">About Us</a></li>			                                                                  
+																   <li><a href="#service">Approach</a></li>
+                                                                  <li><a href="#about">About Us</a></li>			                                                                  
                                                                   
                                                                   <!--<li><a href="#contact">Contact</a></li>-->
 																  <li class="dropdown nav-toggle">
@@ -140,7 +140,7 @@
                      <p><input type = "text" name = "query" /></p>
                      <p><input type = "submit" value = "submit" class="btn btn-custom btn-two"/></p>
                   </form>
-
+<br><br><br><br><br><br>
 
                     <!--<a href="#about" class="btn btn-custom btn-two" >SUBMIT</a>
                     <a href="#email-subscribe" class="btn btn-custom btn-one" >Subscribe Right Now </a>-->
@@ -151,6 +151,114 @@
             </div>
         </div>
     <!--HOME Section End-->
+
+
+	<!-- Section: parallax 1 -->	
+	<section id="parallax1" class="home-section parallax text-light" data-stellar-background-ratio="0.5">	
+           <div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="text-center">
+						<h2 class="big-heading highlight-dark wow bounceInDown" data-wow-delay="0.2s">Using Machine Learning to Classify News Articles</h2>
+						</div>
+					</div>				
+				</div>
+            </div>
+	</section>	
+	
+	<!-- Section: approach -->
+    <section id="service" class="home-section color-dark bg-white">
+		<div class="container marginbot-50">
+			<div class="row">
+				<div class="col-lg-8 col-lg-offset-2">
+					<div class="wow flipInY" data-wow-offset="0" data-wow-delay="0.4s">
+					<div class="section-heading text-center">
+					<h2 class="h-bold">Approach</h2>
+					<div class="divider-header"></div>
+					<p>Build a model to discern the credibility of an article based solely on its textual content.</p>
+					</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="text-center">
+		<div class="container">
+
+        <div class="row">
+            <div class="col-xs-6 col-sm-3 col-md-3">
+				<div class="wow fadeInLeft" data-wow-delay="0.2s">
+                <div class="service-box">
+					<div class="service-icon">
+						<span class="pe-7s-monitor pe-5x"></span> 
+					</div>
+					<div class="service-desc">						
+						<h5>Data Collection</h5>
+						<p>
+						Collect news feeds from a set of different sources for either credible or non-credible sites. Get training labels from OpenSources, a professionally curated database
+						</p>
+						<!--<a href="#" class="btn btn-skin">Learn more</a>-->
+					</div>
+                </div>
+				</div>
+            </div>
+			<div class="col-xs-6 col-sm-3 col-md-3">
+				<div class="wow fadeInUp" data-wow-delay="0.2s">
+                <div class="service-box">
+					<div class="service-icon">
+						<span class="pe-7s-camera pe-5x"></span> 
+					</div>
+					<div class="service-desc">
+						<h5>Sampling</h5>
+						<p>
+						Sampled from our corpus in such a way that the training set contained an even number of unique articles from both “Credible” and “Non-Credible” sources for every day that data was collected. 
+						</p>
+						<!--<a href="#" class="btn btn-skin">Learn more</a>-->
+					</div>
+                </div>
+				</div>
+            </div>
+			<div class="col-xs-6 col-sm-3 col-md-3">
+				<div class="wow fadeInUp" data-wow-delay="0.2s">
+                <div class="service-box">
+					<div class="service-icon">
+						<span class="pe-7s-note pe-5x"></span> 
+					</div>
+					<div class="service-desc">
+						<h5>Developing Classifier</h5>
+						<p>
+						Our ensemble classifier considers the predictions of two separate models: 1.) Content based approach (multinomial Naive Bayes) and 2.) Context based approach (Adaptive Boosting)
+
+						</p>
+						<!--<a href="#" class="btn btn-skin">Learn more</a>-->
+					</div>
+                </div>
+				</div>
+            </div>
+			<div class="col-xs-6 col-sm-3 col-md-3">
+				<div class="wow fadeInRight" data-wow-delay="0.2s">
+                <div class="service-box">
+					<div class="service-icon">
+						<span class="pe-7s-phone pe-5x"></span> 
+					</div>
+					<div class="service-desc">
+						<h5>Real-time Learning</h5>
+						<p>
+						Each classifier is retrained nightly and subjected to cross validation testing to obtain updated accuracy scores. These scores are used to update weights in the final ensemble classifier.
+						</p>
+						<!--<a href="#" class="btn btn-skin">Learn more</a>-->
+					</div>
+                </div>
+				</div>
+            </div>
+        </div>		
+		</div>
+		</div>
+	</section>
+	<!-- /Section: services -->
+
+
 	<!-- Section: about -->
     <section id="about" class="home-section color-dark bg-white">
 		<div class="container marginbot-50">
@@ -246,109 +354,7 @@
 	</section>
 	<!-- /Section: about -->
 	
-	<!-- Section: parallax 1 -->	<!--
-	<section id="parallax1" class="home-section parallax text-light" data-stellar-background-ratio="0.5">	
-           <div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<div class="text-center">
-						<h2 class="big-heading highlight-dark wow bounceInDown" data-wow-delay="0.2s">We start from pixel perfect pattern</h2>
-						</div>
-					</div>				
-				</div>
-            </div>
-	</section>	
-	
-	<!-- Section: services --><!--
-    <section id="service" class="home-section color-dark bg-white">
-		<div class="container marginbot-50">
-			<div class="row">
-				<div class="col-lg-8 col-lg-offset-2">
-					<div class="wow flipInY" data-wow-offset="0" data-wow-delay="0.4s">
-					<div class="section-heading text-center">
-					<h2 class="h-bold">Services</h2>
-					<div class="divider-header"></div>
-					<p>Lorem ipsum dolor sit amet, agam perfecto sensibus usu at duo ut iriure.</p>
-					</div>
-					</div>
-				</div>
-			</div>
 
-		</div>
-
-		<div class="text-center">
-		<div class="container">
-
-        <div class="row">
-            <div class="col-xs-6 col-sm-3 col-md-3">
-				<div class="wow fadeInLeft" data-wow-delay="0.2s">
-                <div class="service-box">
-					<div class="service-icon">
-						<span class="pe-7s-monitor pe-5x"></span> 
-					</div>
-					<div class="service-desc">						
-						<h5>Web Design</h5>
-						<p>
-						Ad denique euripidis signiferumque vim, iusto admodum quo cu. No tritani neglegentur mediocritatem duo.
-						</p>
-						<a href="#" class="btn btn-skin">Learn more</a>
-					</div>
-                </div>
-				</div>
-            </div>
-			<div class="col-xs-6 col-sm-3 col-md-3">
-				<div class="wow fadeInUp" data-wow-delay="0.2s">
-                <div class="service-box">
-					<div class="service-icon">
-						<span class="pe-7s-camera pe-5x"></span> 
-					</div>
-					<div class="service-desc">
-						<h5>Photography</h5>
-						<p>
-						Ad denique euripidis signiferumque vim, iusto admodum quo cu. No tritani neglegentur mediocritatem duo.
-						</p>
-						<a href="#" class="btn btn-skin">Learn more</a>
-					</div>
-                </div>
-				</div>
-            </div>
-			<div class="col-xs-6 col-sm-3 col-md-3">
-				<div class="wow fadeInUp" data-wow-delay="0.2s">
-                <div class="service-box">
-					<div class="service-icon">
-						<span class="pe-7s-note pe-5x"></span> 
-					</div>
-					<div class="service-desc">
-						<h5>Graphic design</h5>
-						<p>
-						Ad denique euripidis signiferumque vim, iusto admodum quo cu. No tritani neglegentur mediocritatem duo.
-						</p>
-						<a href="#" class="btn btn-skin">Learn more</a>
-					</div>
-                </div>
-				</div>
-            </div>
-			<div class="col-xs-6 col-sm-3 col-md-3">
-				<div class="wow fadeInRight" data-wow-delay="0.2s">
-                <div class="service-box">
-					<div class="service-icon">
-						<span class="pe-7s-phone pe-5x"></span> 
-					</div>
-					<div class="service-desc">
-						<h5>Mobile apps</h5>
-						<p>
-						Ad denique euripidis signiferumque vim, iusto admodum quo cu. No tritani neglegentur mediocritatem duo.
-						</p>
-						<a href="#" class="btn btn-skin">Learn more</a>
-					</div>
-                </div>
-				</div>
-            </div>
-        </div>		
-		</div>
-		</div>
-	</section>
-	<!-- /Section: services -->
 	<!--
 	
 	<!-- Section: parallax 2 -->
